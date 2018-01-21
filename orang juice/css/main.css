@@ -1,0 +1,100 @@
+nav{
+	background-color: orange;
+	height: 60px;
+}
+nav > ul{
+	list-style: none;
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+nav  li{
+	display: inline-block;
+	padding: 5px 15px;
+
+}
+nav li > a{
+  color: white;
+  text-decoration: none;
+}
+.oj{
+	color: white;
+	padding-left: 50px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+
+.oj > p{
+	position: absolute;
+	color: white;
+	left: 208px;
+	bottom: 590px;
+	font-size: 11px;
+}
+.oj span{
+	color: yellow;
+}
+header{	
+	float: right;
+	
+}
+header i{
+	position: absolute;
+	right: 20px;
+	top: 70px;
+	color: #bfbcbc;
+}
+section{
+	
+	margin-top: 3%;
+}
+section p{
+	font-family: 'Sofia';
+	font-size: 35px;
+	position: absolute;
+	right: 6%;
+	top: 47%;
+    padding: 2%;
+	float: right;
+}
+section h3{
+	font-family: 'Sofia';
+	font-size: 30px;
+	position: absolute;
+	right: 38%;
+	top: 53%;
+}
+section button{
+	border:none;
+	padding: 1% 5%;
+
+}
+section img{
+	width: 45%;
+	margin-top: 8%;
+}
+.b1{
+	position: absolute;
+	right: 25%;
+	bottom: 5%;
+	background-color: orange;
+}
+.b2{
+	position: absolute;
+	right: 10%;
+	bottom: 5%;
+	background-color: aqua;
+}
+section h3 span{
+	color: orange;
+}
+section p span{
+	color: aqua;
+}
+footer{
+	background-color: aqua;
+	padding: 2%;
+	text-align: center;
+	color: #ff7600;
+	font-size: 18px;
+}
